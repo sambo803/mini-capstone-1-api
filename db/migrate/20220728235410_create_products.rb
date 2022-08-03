@@ -8,5 +8,10 @@ class CreateProducts < ActiveRecord::Migration[7.0]
 
       t.timestamps
     end
+
+    # def change_column
+    #   change_colmn :price, :
+    # end
+
   end
 end
